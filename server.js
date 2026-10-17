@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 const allowedOrigins = [
   "http://localhost:5173",
-" https://coffeeafrontend.onrender.com"
+  "https://coffeeafrontend.onrender.com"
 ];
 
 app.use(
